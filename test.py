@@ -10,7 +10,6 @@ import cv2
 import os
 import numpy as np
 
-
 # ########### 摄像头测试 ##############
 # video = cv2.VideoCapture(0)
 # while True:
@@ -90,5 +89,22 @@ def videoToimg(video_path, img_path):
     cap.release()
 
 
+# # ########### 获取txt文件数据测试 ##############
+def get_ground_truthes(path):
+    gts = []
+    with open(path, "r") as f:
+        while True:
+            line = f.readline()
+            if line == '':
+                gts = np.array(gts, dtype=np.float32)
+                return gts
+            elif ',' in line:
+                gt_pos = line.split(',')
+            else:
+                gt_pos = line.split()
+            gt_pos_int = [float(element) for element in gt_pos]
+            gts.append(gt_pos_int)
+
+
 if __name__ == '__main__':
-    videoToimg("E:/haochen/dataset/track", "E:/haochen/dataset/track")
+    print(get_ground_truthes("./data/result.txt"))
