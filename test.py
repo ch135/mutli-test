@@ -107,4 +107,11 @@ def get_ground_truthes(path):
 
 
 if __name__ == '__main__':
-    print(get_ground_truthes("./data/result.txt"))
+    gts = get_ground_truthes("E:/haochen/dataset/track/example/demo1/result.txt")
+    with open("E:/haochen/dataset/track/example/demo1/xyxy.txt", "w") as file:
+        for i in range(gts.__len__()):
+            gt = gts[i]
+            # w = gt[3]-gt[1]
+            # h = gt[4]-gt[2]
+            file.write("{}\t{}\t{}\t{}\n".format(gt[1], gt[2], gt[3], gt[4]))
+
