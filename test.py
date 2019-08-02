@@ -9,6 +9,7 @@
 import cv2
 import os
 import numpy as np
+import glob
 
 # ########### 摄像头测试 ##############
 # video = cv2.VideoCapture(0)
@@ -104,14 +105,17 @@ def get_ground_truthes(path):
                 gt_pos = line.split()
             gt_pos_int = [float(element) for element in gt_pos]
             gts.append(gt_pos_int)
+            gts.append(gt_pos_int)
+
+def changeName(path):
+    files = glob.glob(path)
+    i = 1
+    for file in files:
+        num = "%03d"%i
+        strs = file.split('\\')
+        file = "{0}{1}{2}".format()
+
 
 
 if __name__ == '__main__':
-    gts = get_ground_truthes("E:/haochen/dataset/track/example/demo1/result.txt")
-    with open("E:/haochen/dataset/track/example/demo1/xyxy.txt", "w") as file:
-        for i in range(gts.__len__()):
-            gt = gts[i]
-            # w = gt[3]-gt[1]
-            # h = gt[4]-gt[2]
-            file.write("{}\t{}\t{}\t{}\n".format(gt[1], gt[2], gt[3], gt[4]))
-
+    changeName("E:/haochen/c++/BACF/BACF/x64/Release/demo/img/*.jpg")
