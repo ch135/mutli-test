@@ -107,15 +107,21 @@ def get_ground_truthes(path):
             gts.append(gt_pos_int)
             gts.append(gt_pos_int)
 
-def changeName(path):
-    files = glob.glob(path)
-    i = 1
-    for file in files:
-        num = "%03d"%i
-        strs = file.split('\\')
-        file = "{0}{1}{2}".format()
+def show():
+    import numpy as np
+    import matplotlib.pyplot as plt
+
+    y = np.arange(1, 5)
+    print(y)
+    plt.plot(y, 'cx--', color='g', marker='o', )
+    plt.plot(y + 1, 'mp:', color='0.5', marker='D')
+    plt.plot(y + 2, '-.', )
+    plt.plot(y + 3, 'kp:', )
+
+    plt.show()
+
 
 
 
 if __name__ == '__main__':
-    changeName("E:/haochen/c++/BACF/BACF/x64/Release/demo/img/*.jpg")
+    show()
