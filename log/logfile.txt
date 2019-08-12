@@ -1,0 +1,54 @@
+2019-08-12 15:08:57,766 - loggingText.py[line:46] - INFO: the message of info
+2019-08-12 15:08:57,766 - loggingText.py[line:47] - WARNING: the message of warning
+2019-08-12 15:08:57,766 - loggingText.py[line:48] - ERROR: the message of error
+2019-08-12 15:08:57,766 - loggingText.py[line:49] - CRITICAL: the message of critical
+2019-08-12 15:10:02,000 - loggingText.py[line:49] - INFO: the message of info
+2019-08-12 15:10:02,000 - loggingText.py[line:50] - WARNING: the message of warning
+2019-08-12 15:10:02,000 - loggingText.py[line:51] - ERROR: the message of error
+2019-08-12 15:10:02,000 - loggingText.py[line:52] - CRITICAL: the message of critical
+2019-08-12 15:17:07,178 - loggingText.py[line:45] - INFO: the message of info
+2019-08-12 15:17:07,179 - log_util.py[line:11] - INFO: log of fun
+2019-08-12 15:17:07,179 - loggingText.py[line:47] - WARNING: the message of warning
+2019-08-12 15:17:07,179 - loggingText.py[line:48] - ERROR: the message of error
+2019-08-12 15:17:07,179 - loggingText.py[line:49] - CRITICAL: the message of critical
+2019-08-12 16:31:32,119 - loggingText.py[line:58] - INFO: the message of info
+2019-08-12 16:31:32,119 - log_util.py[line:11] - INFO: log of fun
+2019-08-12 16:31:32,119 - loggingText.py[line:60] - WARNING: the message of warning
+2019-08-12 16:31:32,119 - loggingText.py[line:61] - ERROR: the message of error
+2019-08-12 16:31:32,120 - loggingText.py[line:62] - CRITICAL: the message of critical
+2019-08-12 16:33:10,343 - loggingText.py[line:58] - INFO: the message of info
+2019-08-12 16:33:10,343 - log_util.py[line:11] - INFO: log of fun
+2019-08-12 16:33:10,343 - loggingText.py[line:60] - WARNING: the message of warning
+2019-08-12 16:33:10,343 - loggingText.py[line:61] - ERROR: the message of error
+2019-08-12 16:33:10,343 - loggingText.py[line:62] - CRITICAL: the message of critical
+2019-08-12 16:33:10,343 - loggingText.py[line:63] - CRITICAL: %(asctime)s
+2019-08-12 16:33:41,860 - loggingText.py[line:59] - INFO: the message of info
+2019-08-12 16:33:41,860 - log_util.py[line:11] - INFO: log of fun
+2019-08-12 16:33:41,861 - loggingText.py[line:61] - WARNING: the message of warning
+2019-08-12 16:33:41,861 - loggingText.py[line:62] - ERROR: the message of error
+2019-08-12 16:33:41,861 - loggingText.py[line:63] - CRITICAL: the message of critical
+2019-08-12 16:33:41,861 - loggingText.py[line:64] - CRITICAL: 1565598821.861464
+2019-08-12 16:34:15,027 - loggingText.py[line:59] - INFO: the message of info
+2019-08-12 16:34:15,027 - log_util.py[line:11] - INFO: log of fun
+2019-08-12 16:34:15,027 - loggingText.py[line:61] - WARNING: the message of warning
+2019-08-12 16:34:15,027 - loggingText.py[line:62] - ERROR: the message of error
+2019-08-12 16:34:15,028 - loggingText.py[line:63] - CRITICAL: the message of critical
+2019-08-12 16:34:15,028 - loggingText.py[line:64] - CRITICAL: 0
+2019-08-12 16:37:18,836 - loggingText.py[line:59] - INFO: the message of info
+2019-08-12 16:37:18,836 - log_util.py[line:11] - INFO: log of fun
+2019-08-12 16:37:18,836 - loggingText.py[line:61] - WARNING: the message of warning
+2019-08-12 16:37:18,836 - loggingText.py[line:62] - ERROR: the message of error
+2019-08-12 16:37:18,836 - loggingText.py[line:63] - CRITICAL: the message of critical
+2019-08-12 16:37:18,837 - loggingText.py[line:64] - CRITICAL: 2019-08-12 16:37:18
+2019-08-12 16:38:23,768 - loggingText.py[line:59] - INFO: the message of info
+2019-08-12 16:38:23,768 - log_util.py[line:11] - INFO: log of fun
+2019-08-12 16:38:23,768 - loggingText.py[line:61] - WARNING: the message of warning
+2019-08-12 16:38:23,768 - loggingText.py[line:62] - ERROR: the message of error
+2019-08-12 16:38:23,768 - loggingText.py[line:63] - CRITICAL: the message of critical
+2019-08-12 16:38:23,768 - loggingText.py[line:64] - CRITICAL: 2019-08-12 16-38-23
+2019-08-12 16:39:17,520 - loggingText.py[line:59] - INFO: the message of info
+2019-08-12 16:39:17,520 - log_util.py[line:11] - INFO: log of fun
+2019-08-12 16:39:17,520 - loggingText.py[line:61] - WARNING: the message of warning
+2019-08-12 16:39:17,520 - loggingText.py[line:62] - ERROR: the message of error
+2019-08-12 16:39:17,520 - loggingText.py[line:63] - CRITICAL: the message of critical
+2019-08-12 16:39:17,521 - loggingText.py[line:64] - CRITICAL: 2019-08-12 16-39-17

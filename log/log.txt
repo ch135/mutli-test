@@ -1,0 +1,5 @@
+2019-08-12 14:37:40,303 - loggingText.py[line:13] - DEBUG: the message of debug
+2019-08-12 14:37:40,303 - loggingText.py[line:14] - INFO: the message of info
+2019-08-12 14:37:40,303 - loggingText.py[line:15] - WARNING: the message of warning
+2019-08-12 14:37:40,303 - loggingText.py[line:16] - ERROR: the message of error
+2019-08-12 14:37:40,303 - loggingText.py[line:17] - CRITICAL: the message of critical
